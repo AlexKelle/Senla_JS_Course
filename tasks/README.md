@@ -26,7 +26,7 @@
 console.log(test);
 var test = 'string';
 
-//2
+// 2
 var x = 'string';
 var x = 'string 2';
 console.log(x);
@@ -35,12 +35,15 @@ console.log(x);
 console.log(test);
 let test = 'string';
 
-var x = 'string';
-var x = 'string 2';
+// 4
+const x = 'string';
+const x = 'string 2';
 console.log(x);
 
+// 5
 let num = 12;
 let num = 1;
+console.log(num)
 ```
 [Вернуться к содержанию](#содержание)
 
