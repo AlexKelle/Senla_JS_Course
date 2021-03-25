@@ -26,7 +26,7 @@
 console.log(test);
 var test = 'string';
 
-//2
+// 2
 var x = 'string';
 var x = 'string 2';
 console.log(x);
@@ -35,12 +35,15 @@ console.log(x);
 console.log(test);
 let test = 'string';
 
-var x = 'string';
-var x = 'string 2';
+// 4
+const x = 'string';
+const x = 'string 2';
 console.log(x);
 
+// 5
 let num = 12;
 let num = 1;
+console.log(num)
 ```
 [Вернуться к содержанию](#содержание)
 
@@ -200,7 +203,6 @@ const services = [
 [Вернуться к содержанию](#содержание)
 
 ## Доступ к DOM
-
 ```html
 <html>
   <head></head>
@@ -223,7 +225,6 @@ const services = [
  4. первый div и все его дочерние узлы
   4.1 вывести все дочерние узлы в консоль 
   4.2 вывести все дочерние узлы в консоль кроме первого
-* 
 
 Код для задания лежит в папке  'dom_task'
 * Создать функцию которая принимает два. Функция проверяет является ли первый элемент родителям для второго элемента isParent(parent, child) => true || false
