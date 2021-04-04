@@ -1,0 +1,20 @@
+p{
+  margin: 0 0 15px;
+}
+ul{
+  margin: 0;
+  padding: 3px;
+  list-style: none;
+  overflow: hidden;
+}
+ul li{
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 3px;
+  box-shadow: 0 0  2px #00f;
+}
+.item{background: #bbb;}
+.new-item{color: red}
+.list{background: #0ff;}
+.green{background: green;}
+.custom-link{color: #f90;}
