@@ -1,0 +1,17 @@
+.yellow{
+  display: inline-block;
+  background-color: yellow;
+  padding: 50px;
+}
+
+.green{
+  display: inline-block;
+  background-color: lightgreen;
+  padding: 50px;
+}
+
+.red{
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+}
