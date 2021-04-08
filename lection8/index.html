@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>API and BOM</title>
+</head>
+<body>
+  <section>
+    <h2>Window size</h2>
+    <p id="widowSize"></p>
+    <p id="screenWidth"></p>
+    <p id="screenAvailWidth"></p>
+    <p id="screenHeight"></p>
+    <p id="screenAvailHeight"></p>
+  </section>
+  <section>
+    <h2>Location</h2>
+    <p id="locationHostName"></p>
+    <p id="locationHref"></p>
+    <p id="locationPathName"></p>
+    <p id="locationProtocol"></p>
+  </section>
+  <h2>Navigator</h2>
+  <p id="navCookie"></p>
+  <p id="navAppName"></p>
+  <p id="navAppCodeName"></p>
+  <p id="navProduct"></p>
+  <p id="navAppVersion"></p>
+</section>
+  <section>
+    <h2>getLocation browser API</h2>
+    <p>Нажмите на кнопку, чтоб получить ваши координаты</p>
+    <button onclick="getLocation()">Попробуй</button>
+    <p><strong>Важно:</strong> Геолокация не поддерживается в IE8 и более ранних версиях.</p>
+    <p id="demo"></p>
+    <p id="lStorage"></p>
+    <p id="sStorage"></p>
+</section>
+  <script src="index.js"></script>
+</body>
+</html>
